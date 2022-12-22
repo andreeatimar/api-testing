@@ -61,5 +61,17 @@ public class ApiTests {
         response.log().status();
     }
 
-    //todo: add more test coverage
+    // This test deletes an entry from the DB
+    @Test
+    public void deleteProduct() {
+        String endpoint = "http://localhost:80/api_testing/product/delete.php";
+        String body = """
+                {
+                "id": 1000
+                }
+                """;
+        var response = given().body(body).when().delete(endpoint).then();
+        response.log().body();
+        response.log().status();
+    }
 }
