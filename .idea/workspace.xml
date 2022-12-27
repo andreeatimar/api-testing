@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc3a4142-258c-4246-bee1-2b5803d4fda7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/models/Product.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/trainingxyz/ApiTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/trainingxyz/trainingxyz/ApiTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/trainingxyz/trainingxyz/ApiTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/trainingxyz/trainingxyz/ApiTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +49,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.ApiTests.deleteSweatBand">
+  <component name="RunManager" selected="JUnit.ApiTests.getMultiVitamins">
     <configuration name="ApiTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="api-testing" />
       <extension name="coverage">
@@ -83,7 +81,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ApiTests.deleteSweatBand" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ApiTests.getDeserializedProduct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="api-testing" />
       <extension name="coverage">
         <pattern>
@@ -93,13 +91,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="trainingxyz.trainingxyz" />
       <option name="MAIN_CLASS_NAME" value="trainingxyz.trainingxyz.ApiTests" />
-      <option name="METHOD_NAME" value="deleteSweatBand" />
+      <option name="METHOD_NAME" value="getDeserializedProduct" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ApiTests.getSweatBandt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ApiTests.getMultiVitamins" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="api-testing" />
       <extension name="coverage">
         <pattern>
@@ -109,13 +107,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="trainingxyz.trainingxyz" />
       <option name="MAIN_CLASS_NAME" value="trainingxyz.trainingxyz.ApiTests" />
-      <option name="METHOD_NAME" value="getSweatBandt" />
+      <option name="METHOD_NAME" value="getMultiVitamins" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ApiTests.updateChallengeProduct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ApiTests.getProducts" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="api-testing" />
       <extension name="coverage">
         <pattern>
@@ -125,7 +123,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="trainingxyz.trainingxyz" />
       <option name="MAIN_CLASS_NAME" value="trainingxyz.trainingxyz.ApiTests" />
-      <option name="METHOD_NAME" value="updateChallengeProduct" />
+      <option name="METHOD_NAME" value="getProducts" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -133,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ApiTests.deleteSweatBand" />
-        <item itemvalue="JUnit.ApiTests.getSweatBandt" />
-        <item itemvalue="JUnit.ApiTests.updateChallengeProduct" />
-        <item itemvalue="JUnit.ApiTests.createSerializedProduct" />
+        <item itemvalue="JUnit.ApiTests.getMultiVitamins" />
+        <item itemvalue="JUnit.ApiTests.getDeserializedProduct" />
         <item itemvalue="JUnit.ApiTests" />
+        <item itemvalue="JUnit.ApiTests.getProducts" />
+        <item itemvalue="JUnit.ApiTests.createSerializedProduct" />
       </list>
     </recent_temporary>
   </component>
